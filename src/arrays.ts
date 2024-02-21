@@ -5,7 +5,13 @@
  * the number twice.
  */
 export function bookEndList(numbers: number[]): number[] {
-    return numbers;
+    if (numbers.length === 0) {
+        return [];
+    } else if (numbers.length === 1) {
+        return [numbers[0], numbers[0]];
+    } else {
+        return [numbers[0], numbers[numbers.length - 1]];
+    }
 }
 
 /**
@@ -46,13 +52,14 @@ export const removeDollars = (amounts: string[]): number[] => {
  * in question marks ("?").
  */
 export const shoutIfExclaiming = (messages: string[]): string[] => {
-    return messages.map(message) => {
-        if (message.endsWith("!")) {
-            return message.toUpperCase();
-        } else if (!message.endsWith("?")) {
+    return messages
+        .map((message) => {
+            if (message.endsWith("!")) {
+                return message.toUpperCase();
+            }
             return message;
-        }
-    };
+        })
+        .filter((message) => !message.endsWith("?"));
 };
 
 /**
@@ -70,8 +77,7 @@ export function countShortWords(words: string[]): number {
  * then return true.
  */
 export function allRGB(colors: string[]): boolean {
-    const rgb = colors.every((color: string): boolean => color.includes("red"));
-    return false;
+    return colors.every((color) => ["red", "blue", "green"].includes(color));
 }
 
 /**
