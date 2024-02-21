@@ -35,7 +35,7 @@ export function stringsToIntegers(numbers: string[]): number[] {
 // Remember, you can write functions as lambdas too! They work exactly the same.
 export const removeDollars = (amounts: string[]): number[] => {
     const noDollars = amounts.filter((num: number): boolean =>
-        num.startsWith()
+        num.startsWith("$")
     );
     return [];
 };
@@ -46,7 +46,13 @@ export const removeDollars = (amounts: string[]): number[] => {
  * in question marks ("?").
  */
 export const shoutIfExclaiming = (messages: string[]): string[] => {
-    return [];
+    return messages.map(message) => {
+        if (message.endsWith("!")) {
+            return message.toUpperCase();
+        } else if (!message.endsWith("?")) {
+            return message;
+        }
+    };
 };
 
 /**
@@ -64,9 +70,7 @@ export function countShortWords(words: string[]): number {
  * then return true.
  */
 export function allRGB(colors: string[]): boolean {
-    const rgb = colors.every((color) =>
-        ["red", "blue", "green"].includes(color)
-    );
+    const rgb = colors.every((color: string): boolean => color.includes("red"));
     return false;
 }
 
