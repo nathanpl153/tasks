@@ -1,3 +1,5 @@
+import { parseIsolatedEntityName } from "typescript";
+
 /**
  * Consume an array of numbers, and return a new array containing
  * JUST the first and last number. If there are no elements, return
@@ -40,10 +42,13 @@ export function stringsToIntegers(numbers: string[]): number[] {
  */
 // Remember, you can write functions as lambdas too! They work exactly the same.
 export const removeDollars = (amounts: string[]): number[] => {
-    const noDollars = amounts.filter((num: number): boolean =>
-        num.startsWith("$")
-    );
-    return [];
+    return amounts.map((amount) => {
+        const amountWithoutDollar = amount.startsWith("$")
+            ? amount.slice(1)
+            : amount;
+        const parsedAmount = parseInt(amountWithoutDollar);
+        return isNaN(parsedAmount) ? 0 : parsedAmount;
+    });
 };
 
 /**
@@ -101,5 +106,15 @@ export function makeMath(addends: number[]): string {
  * And the array [1, 9, 7] would become [1, 9, 7, 17]
  */
 export function injectPositive(values: number[]): number[] {
-    return [];
+    let sum = 0;
+    let foundNegative = false;
+
+    return values.map((value) => {
+        if (!foundNegative && value < 0) {
+            foundNegative = true;
+            return value;
+        }
+        sum += value;
+        return foundNegative ? value : sum;
+    });
 }
