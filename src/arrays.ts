@@ -114,18 +114,5 @@ export function makeMath(addends: number[]): string {
  * And the array [1, 9, 7] would become [1, 9, 7, 17]
  */
 export function injectPositive(values: number[]): number[] {
-    //find the index of the first negative number then create an array of all the numbers beforehand and insert the sum after that negative number
-    const negNumIndex = values.findIndex((value) => value < 0);
-
-    if (negNumIndex === -1) {
-        const total = values.reduce((acc, curr) => acc + curr, 0);
-        values.push(total);
-    } else {
-        const total = values
-            .slice(0, negNumIndex)
-            .reduce((acc, curr) => acc + curr, 0);
-        values.splice(negNumIndex, 0, total);
-    }
-
-    return values;
+    return [];
 }
