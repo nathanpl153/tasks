@@ -93,7 +93,15 @@ export function allRGB(colors: string[]): boolean {
  * And the array [] would become "0=0".
  */
 export function makeMath(addends: number[]): string {
-    return "";
+    //use the array methods map and join, map to find sum of all numbers then join to put in a string and remember to put + between the numbers that are being added together
+    // and  an = after the total, and i can also incorporate reduce to add all the numbers together instead
+    const total = addends.reduce((acc, curr) => acc + curr, 0); //reduce to add all the numbers together
+    const addendsString = addends.map(String).join("+"); //join each of the numbers into a string with the + sign
+    if (addends.length === 0) {
+        return "0=0";
+    } else {
+        return `${total}=${addendsString}`; //adds the total of the numbers to the string of the numbers and puts an equal sign in between
+    }
 }
 
 /**
@@ -106,15 +114,18 @@ export function makeMath(addends: number[]): string {
  * And the array [1, 9, 7] would become [1, 9, 7, 17]
  */
 export function injectPositive(values: number[]): number[] {
-    let sum = 0;
-    let foundNegative = false;
+    //find the index of the first negative number then create an array of all the numbers beforehand and insert the sum after that negative number
+    const negNumIndex = values.findIndex((value) => value < 0);
 
-    return values.map((value) => {
-        if (!foundNegative && value < 0) {
-            foundNegative = true;
-            return value;
-        }
-        sum += value;
-        return foundNegative ? value : sum;
-    });
+    if (negNumIndex === -1) {
+        const total = values.reduce((acc, curr) => acc + curr, 0);
+        values.push(total);
+    } else {
+        const total = values
+            .slice(0, negNumIndex)
+            .reduce((acc, curr) => acc + curr, 0);
+        values.splice(negNumIndex, 0, total);
+    }
+
+    return values;
 }
