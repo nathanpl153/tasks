@@ -88,7 +88,6 @@ export function toMarkdown(question: Question): string {
             .join("\n");
         return "# " + question.name + "\n" + question.body + "\n" + options;
     }
-    return "";
 }
 
 /**
@@ -155,5 +154,14 @@ export function mergeQuestion(
     contentQuestion: Question,
     { points }: { points: number }
 ): Question {
-    return contentQuestion;
+    return {
+        id: id,
+        name: name,
+        type: contentQuestion.type,
+        body: contentQuestion.body,
+        expected: contentQuestion.expected,
+        options: contentQuestion.options,
+        points: points,
+        published: false
+    };
 }
