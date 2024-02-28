@@ -6,7 +6,14 @@ import { Question, QuestionType } from "./interfaces/question";
  * that are `published`.
  */
 export function getPublishedQuestions(questions: Question[]): Question[] {
-    return [];
+    const copyQuestions = questions.map(
+        (question: Question): Question => ({ ...question })
+    );
+
+    const publishedQuestions = copyQuestions.filter(
+        (question: Question): boolean => question.published
+    );
+    return publishedQuestions;
 }
 
 /**
