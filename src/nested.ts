@@ -1,6 +1,6 @@
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
-import { makeBlankQuestion } from "./objects";
+import { duplicateQuestion, makeBlankQuestion } from "./objects";
 
 /**
  * Consumes an array of questions and returns a new array with only the questions
@@ -263,16 +263,32 @@ export function editOption(
     });
 }
 
-// /***
-//  * Consumes an array of questions, and produces a new array based on the original array.
-//  * The only difference is that the question with id `targetId` should now be duplicated, with
-//  * the duplicate inserted directly after the original question. Use the `duplicateQuestion`
-//  * function you defined previously; the `newId` is the parameter to use for the duplicate's ID.
-//  */
-// export function duplicateQuestionInArray(
-//     questions: Question[],
-//     targetId: number,
-//     newId: number
-// ): Question[] {
-//     return [];
-// }
+/***
+ * Consumes an array of questions, and produces a new array based on the original array.
+ * The only difference is that the question with id `targetId` should now be duplicated, with
+ * the duplicate inserted directly after the original question. Use the `duplicateQuestion`
+ * function you defined previously; the `newId` is the parameter to use for the duplicate's ID.
+ */
+export function duplicateQuestionInArray(
+    questions: Question[],
+    targetId: number,
+    newId: number
+): Question[] {
+    const targetIndex = questions.findIndex(
+        (question) => question.id === targetId
+    );
+
+    if (targetIndex === -1) {
+        return questions;
+    }
+
+    const duplicatedQuestion = duplicateQuestion(newId, questions[targetIndex]);
+
+    const updatedQuestions = [
+        ...questions.slice(0, targetIndex + 1),
+        duplicatedQuestion,
+        ...questions.slice(targetIndex + 1)
+    ];
+
+    return updatedQuestions;
+}
