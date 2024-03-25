@@ -3,11 +3,15 @@ import { Button } from "react-bootstrap";
 import { dhValue, setDhValue } from "./DoubleHalfState";
 
 function Doubler(): JSX.Element {
-    return <Button onClick={() => setDhValue(2 * dhValue)}>Double</Button>;
+    //return <Button onClick={() => setDhValue(2 * dhValue)}>Double</Button>;
+    const doubleValue = () => setDhValue(dhValue * 2); // Fix: Correct the calculation for doubling
+    return <Button onClick={doubleValue}>Double</Button>;
 }
 
 function Halver(): JSX.Element {
-    return <Button onClick={() => setDhValue(0.5 * dhValue)}>Halve</Button>;
+    //return <Button onClick={() => setDhValue(0.5 * dhValue)}>Halve</Button>;
+    const halveValue = () => setDhValue(dhValue / 2); // Fix: Correct the calculation for halving
+    return <Button onClick={halveValue}>Halve</Button>;
 }
 
 export function DoubleHalf(): JSX.Element {
