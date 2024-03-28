@@ -18,6 +18,15 @@ export function ChangeColor(): JSX.Element {
         setSelectedColor(color);
     };
 
+    const labelStyle = (color: string) => ({
+        backgroundColor: color,
+        padding: "5px 10px",
+        marginRight: "10px",
+        borderRadius: "5px",
+        color: "white",
+        cursor: "pointer"
+    });
+
     return (
         <div>
             <h3>Change Color</h3>
@@ -30,6 +39,7 @@ export function ChangeColor(): JSX.Element {
                     id={`color-radio-${index}`}
                     checked={selectedColor === color}
                     onChange={() => handleColorChange(color)}
+                    style={labelStyle(color)}
                 />
             ))}
             <div
@@ -38,7 +48,9 @@ export function ChangeColor(): JSX.Element {
                     width: "50px",
                     height: "50px",
                     backgroundColor: selectedColor,
-                    marginTop: "10px"
+                    marginTop: "10px",
+                    marginLeft: "auto",
+                    marginRight: "auto"
                 }}
             >
                 {selectedColor}
