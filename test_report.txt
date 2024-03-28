@@ -14,8 +14,8 @@ Browserslist: caniuse-lite is outdated. Please run:
 PASS src/objects.test.ts
 PASS src/arrays.test.ts
 PASS src/nested.test.ts
-PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/components/StartAttempt.test.tsx
+PASS src/form-components/MultipleChoiceQuestion.test.tsx
 FAIL src/components/TwoDice.test.tsx
   ● TwoDice Component tests › Clicking left button changes first number
 
@@ -628,6 +628,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -645,6 +646,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -661,6 +663,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -677,6 +680,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -693,6 +697,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -709,6 +714,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -725,6 +731,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -741,6 +748,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -757,7 +765,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -1019,12 +1027,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m1[0m
+              [0m2[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m5[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -1523,6 +1531,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -1540,6 +1549,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1556,6 +1566,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1572,6 +1583,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1588,6 +1600,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1604,6 +1617,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1620,6 +1634,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1636,6 +1651,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -1652,7 +1668,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -1914,12 +1930,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m1[0m
+              [0m4[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m5[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -2417,6 +2433,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -2434,6 +2451,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2450,6 +2468,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2466,6 +2485,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2482,6 +2502,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2498,6 +2519,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2514,6 +2536,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2530,6 +2553,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -2546,7 +2570,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -3311,6 +3335,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -3328,6 +3353,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3344,6 +3370,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3360,6 +3387,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3376,6 +3404,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3392,6 +3421,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3408,6 +3438,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3424,6 +3455,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -3440,7 +3472,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -3702,7 +3734,7 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m3[0m
+              [0m5[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
@@ -4205,6 +4237,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -4222,6 +4255,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4238,6 +4272,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4254,6 +4289,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4270,6 +4306,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4286,6 +4323,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4302,6 +4340,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4318,6 +4357,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -4334,7 +4374,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -4596,12 +4636,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m4[0m
+              [0m1[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m3[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -4655,7 +4695,7 @@ FAIL src/HtmlCss.test.tsx
 -----------------------------|---------|----------|---------|---------|-------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------------|---------|----------|---------|---------|-------------------
-All files                    |   93.64 |    85.58 |   96.96 |   93.28 |                   
+All files                    |   93.68 |    85.58 |   96.99 |    93.3 |                   
  src                         |   98.68 |    96.22 |     100 |   98.57 |                   
   App.tsx                    |     100 |      100 |     100 |     100 |                   
   arrays.ts                  |     100 |      100 |     100 |     100 |                   
@@ -4675,8 +4715,8 @@ All files                    |   93.64 |    85.58 |   96.96 |   93.28 |
   RevealAnswer.tsx           |     100 |      100 |     100 |     100 |                   
   StartAttempt.tsx           |     100 |      100 |     100 |     100 |                   
   TwoDice.tsx                |     100 |      100 |     100 |     100 |                   
- src/form-components         |   86.79 |    78.57 |   86.36 |   85.71 |                   
-  ChangeColor.tsx            |   71.42 |      100 |      50 |   71.42 | 18,32             
+ src/form-components         |   87.27 |    78.57 |   86.95 |      86 |                   
+  ChangeColor.tsx            |   77.77 |      100 |      60 |      75 | 18,41             
   CheckAnswer.tsx            |   64.28 |       25 |   66.66 |   64.28 | 17-20,28          
   EditMode.tsx               |     100 |      100 |     100 |     100 |                   
   GiveAttempts.tsx           |     100 |      100 |     100 |     100 |                   
@@ -5212,6 +5252,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -5229,6 +5270,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5245,6 +5287,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5261,6 +5304,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5277,6 +5321,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5293,6 +5338,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5309,6 +5355,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5325,6 +5372,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -5341,7 +5389,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -5603,12 +5651,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m1[0m
+              [0m2[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m5[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -6107,6 +6155,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -6124,6 +6173,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6140,6 +6190,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6156,6 +6207,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6172,6 +6224,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6188,6 +6241,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6204,6 +6258,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6220,6 +6275,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -6236,7 +6292,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -6498,12 +6554,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m1[0m
+              [0m4[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m5[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -7001,6 +7057,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -7018,6 +7075,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7034,6 +7092,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7050,6 +7109,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7066,6 +7126,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7082,6 +7143,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7098,6 +7160,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7114,6 +7177,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7130,7 +7194,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -7895,6 +7959,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -7912,6 +7977,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7928,6 +7994,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7944,6 +8011,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7960,6 +8028,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7976,6 +8045,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -7992,6 +8062,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8008,6 +8079,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8024,7 +8096,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -8286,7 +8358,7 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m3[0m
+              [0m5[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
@@ -8789,6 +8861,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</h3>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: red; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mchecked[39m=[32m""[39m
@@ -8806,6 +8879,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: blue; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8822,6 +8896,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: green; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8838,6 +8913,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: yellow; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8854,6 +8930,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: orange; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8870,6 +8947,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: purple; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8886,6 +8964,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: pink; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8902,6 +8981,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"form-check form-check-inline"[39m
+              [33mstyle[39m=[32m"background-color: cyan; padding: 5px 10px; margin-right: 10px; border-radius: 5px; color: white; cursor: pointer;"[39m
             [36m>[39m
               [36m<input[39m
                 [33mclass[39m=[32m"form-check-input"[39m
@@ -8918,7 +8998,7 @@ FAIL src/HtmlCss.test.tsx
             [36m</div>[39m
             [36m<div[39m
               [33mdata-testid[39m=[32m"colored-box"[39m
-              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px;"[39m
+              [33mstyle[39m=[32m"width: 50px; height: 50px; background-color: red; margin-top: 10px; margin-left: auto; margin-right: auto;"[39m
             [36m>[39m
               [0mred[0m
             [36m</div>[39m
@@ -9180,12 +9260,12 @@ FAIL src/HtmlCss.test.tsx
             [36m<p[39m
               [33mdata-testid[39m=[32m"left-die"[39m
             [36m>[39m
-              [0m4[0m
+              [0m1[0m
             [36m</p>[39m
             [36m<p[39m
               [33mdata-testid[39m=[32m"right-die"[39m
             [36m>[39m
-              [0m2[0m
+              [0m3[0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<hr />[39m
@@ -9240,5 +9320,5 @@ FAIL src/HtmlCss.test.tsx
 Test Suites: 5 failed, 17 passed, 22 total
 Tests:       19 failed, 123 passed, 142 total
 Snapshots:   0 total
-Time:        9.735 s
+Time:        9.813 s
 Ran all test suites.
